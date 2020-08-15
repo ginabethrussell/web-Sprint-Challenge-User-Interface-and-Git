@@ -70,7 +70,7 @@ p {
     width: 800px;
     margin: 0 auto;
 }
-/* Started Sprint Challenge CSS Here */
+/* Sprint Challenge Header CSS Here */
 header {
     padding-top: 3%;
 }
@@ -88,6 +88,7 @@ header nav a {
 header .img-container {
     margin: 3% 0;
 }
+/* End Sprint Challenge Header CSS */
 
 .top-content {
     display: flex;
@@ -129,6 +130,38 @@ header .img-container {
     align-items: center;
     justify-content: center;
 }
+/* Sprint Challenge Boxes CSS begins here */
+#box1 {
+    background: teal;
+}
+#box2 {
+    background: gold;
+}
+#box3 {
+    background:cadetblue;
+}
+#box4 {
+    background: coral;
+}
+#box5 {
+    background: crimson;
+}
+#box6 {
+    background: forestgreen;
+}
+#box7 {
+    background: darkorchid;
+}
+#box8 {
+    background: hotpink;
+}
+#box9 {
+    background: indigo;
+}
+#box10 {
+    background: dodgerblue;
+}
+/* End Sprint Challenge Box CSS */
 
 .bottom-content {
     display: flex;
