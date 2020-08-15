@@ -264,7 +264,9 @@ footer nav a {
     /* Sprint Challenge Stretch - I used a flex-item property within 
     the .about-page section flexbox to alter the placement of this button 
     from flex-start with the text to flex-end. I thought this made the 
-    button stand out for emphasis from the section text block */
+    button stand out for emphasis from the section text block, Commenting out
+    the line of code below code will return the design to match the design 
+    guide. */
     align-self: flex-end;
 }
 
