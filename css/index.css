@@ -211,11 +211,15 @@ footer nav a {
 .about-page .section-container {
     display: flex;
     flex-wrap: wrap;
-   justify-content: space-evenly;
+    justify-content: space-evenly;
 }
 .about-page section {
     width: 48%;
     margin-bottom: 2%;
+    /* created a flex box inside this section to change the 
+    layout of the nested button using align-self */
+    display: flex;
+    flex-direction: column;
 }
 .about-page section .section-border {
     width: 95%;
@@ -235,6 +239,11 @@ footer nav a {
     font-size: 14px;
     background: white;
     margin-bottom: 4%;
+    margin-right: 5%;
+    /* used a flex-item property within the flexbox to alter
+    the placement of this button from flex-start with the text to 
+    flex-end, I preferred the arrangement. Made th button stand out for action */
+    align-self: flex-end;
 }
 .about-page .main-footer {
     width: 95%;
