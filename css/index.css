@@ -70,6 +70,24 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* Started Sprint Challenge CSS Here */
+header {
+    padding-top: 3%;
+}
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+header nav a {
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+header .img-container {
+    margin: 3% 0;
+}
 
 .top-content {
     display: flex;
