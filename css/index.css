@@ -70,6 +70,29 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+/* Sprint Challenge Header CSS Begins */
+header {
+    padding-top: 3%;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header nav a {
+    margin-right: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+header .img-container {
+    margin: 3% 0;
+}
+
+/* End of Sprint Challenge Header CSS */
 
 .top-content {
     display: flex;
@@ -111,6 +134,49 @@ p {
     align-items: center;
     justify-content: center;
 }
+/* Sprint Challenge Box Color CSS Begins */
+
+#box1 {
+    background: teal;
+}
+
+#box2 {
+    background: gold;
+}
+
+#box3 {
+    background:cadetblue;
+}
+
+#box4 {
+    background: coral;
+}
+
+#box5 {
+    background: crimson;
+}
+
+#box6 {
+    background: forestgreen;
+}
+
+#box7 {
+    background: darkorchid;
+}
+
+#box8 {
+    background: hotpink;
+}
+
+#box9 {
+    background: indigo;
+}
+
+#box10 {
+    background: dodgerblue;
+}
+
+/* End of Sprint Challenge Box CSS */
 
 .bottom-content {
     display: flex;
@@ -143,4 +209,69 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* Sprint Challenge About Page CSS Begins */
+
+.about-page header {
+    border-bottom: 1px dashed black;
+    padding-bottom: 3%;
+    margin-bottom: 3%;
+}
+
+.about-page .header-text {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.about-page .section-container {
+    width: 98%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;  
+}
+
+.about-page section {
+    width: 48%;
+    margin-bottom: 2%;
+    border-bottom: 1px dashed black;
+
+    /* Sprint Challenge Stretch - I created a flexbox inside this 
+    section to change the layout of the nested button using align-self */
+    display: flex;
+    flex-direction: column;  
+}
+
+.about-page section h2{
+    margin-top: 14px;
+}
+
+.about-page section p {
+    margin: 2% 0 4% 0;
+    
+}
+
+.about-page section button {
+    width: 35%;
+    padding: 3% 0;
+    border-radius: 10px;
+    font-size: 14px;
+    background: white;
+    margin-bottom: 4%;
+    margin-right: 5%;
+
+    /* Sprint Challenge Stretch - I used a flex-item property within 
+    the .about-page section flexbox to alter the placement of this button 
+    from flex-start with the text to flex-end. I thought this made the 
+    button stand out for emphasis from the section text block, Commenting out
+    the line of code below code will return the design to match the design 
+    guide. */
+    align-self: flex-end;
+}
+
+.about-page .main-footer {
+    width: 95%;
+    margin: 0 auto;
+    padding: 3% 0;
 }
